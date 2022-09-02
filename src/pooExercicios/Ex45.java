@@ -1,4 +1,4 @@
-/*45. Sabendo que triângulo é uma figura geométrica de
+package pooExercicios;/*45. Sabendo que triângulo é uma figura geométrica de
 três lados em que cada um dos lados é menor que a
 soma dos outros dois, faça um algoritmo que rece-
 ba três valores e verifique se eles podem ser os com-

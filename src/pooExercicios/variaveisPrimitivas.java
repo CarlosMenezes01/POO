@@ -1,3 +1,5 @@
+package pooExercicios;
+
 public class variaveisPrimitivas {
     public static void main(String[] args) {
 

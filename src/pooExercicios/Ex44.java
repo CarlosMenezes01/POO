@@ -1,4 +1,4 @@
-/*Faça um programa que leia três valores distintos a
+package pooExercicios;/*Faça um programa que leia três valores distintos a
 serem digitados pelo usuário, determine e exiba o
 menor deles.*/
 

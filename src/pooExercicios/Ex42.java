@@ -1,4 +1,4 @@
-
+package pooExercicios;
 /* 38. Faça um programa que leia o valor do salário bruto
         de um funcionário. Se o salário for menor ou igual
         a R$ 500,00, o programa deve aplicar um aumento

@@ -1,3 +1,5 @@
+package pooExercicios;
+
 import java.util.Scanner;
 
 public class Ex39 {
@@ -14,9 +16,9 @@ public class Ex39 {
         notaFinal = ler.nextInt();
 
         if(notaFinal >= 60){
-            System.out.println("Aluno aprovado");
+            System.out.println("pooAulas.Aluno aprovado");
         }else {
-            System.out.println("Aluno Reprovado");
+            System.out.println("pooAulas.Aluno Reprovado");
         }
 
 

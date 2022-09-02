@@ -1,3 +1,5 @@
+package pooExercicios;
+
 import java.util.Scanner;
 
 public class Ex41 {

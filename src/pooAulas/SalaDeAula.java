@@ -49,6 +49,24 @@ public class SalaDeAula {
         System.out.println(alunoTads);
 
 
+        //2 PARTE DA AULA
+
+        Curso tads, mecanica, civil, gastronomia;
+        Instituicao ifam;
+        ifam = new Instituicao();
+        gastronomia = new Curso();
+
+        hana.curso = gastronomia;
+        gastronomia.nome = "Bacharelado em Gastronomia";
+        hana.nome = "Hana Yasmim B. de Medeiros";
+        ifam.nome = "Ifam";
+
+
+
+        System.out.printf("\n %s faz %s no %s", hana.nome, hana.curso.nome, hana.curso.instituicao.nome);
+
+
+
 
 
     }

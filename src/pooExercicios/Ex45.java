@@ -12,18 +12,28 @@ public class Ex45 {
         int arrayValores[];
         int qtdNumDigitados;
         Scanner ler = new Scanner(System.in);
+        int valorDigitado;
 
-        System.out.println("Este programa recebe 3 valores referentes ao lado de um triangulo e verifica se podem ser um triangulo");
-        System.out.println("Informe a quantidade de valores que serão inseridos");
+        System.out.println("Este programa recebe 3 valores referentes ao lado de um triangulo e verifica se podem ser um triangulo\n");
+        System.out.println("Informe a quantidade de valores que serão inseridos: ");
         qtdNumDigitados = ler.nextInt();
 
         arrayValores = new int[qtdNumDigitados];
 
+        //ler valores e colocar no array de valores
         for(int i = 0; i < qtdNumDigitados; i++){
 
-
+            System.out.printf("Digite o %s valor: ", i);
+            arrayValores[i]=ler.nextInt();
 
         }
+
+//        if (){
+//
+//
+//
+//        }
+
 
 
 

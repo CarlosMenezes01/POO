@@ -18,35 +18,35 @@ public class SalaDeAula {
         System.out.printf("data nascimento: %s \n\n", hana.dataNascimento);
 
 
-        //Nova declaração de objeto
-        Aluno alunoTads; // criei novo objeto
-
-        alunoTads = hana; // MEGA IMPORTANTE - estou atribuindo a instancia do objeto hana ao novo objeto alunoTads. - O mesmo espaço alocado de memoria para hara sera o referenciado ao alunoTads
-        alunoTads.nome = "Hana yasmim B de Medeiros";
-        System.out.println(hana.nome);
-        System.out.println(alunoTads.nome);
-
-        System.out.println();
-
-        System.out.println(hana);
-        System.out.println(alunoTads);
-
-        System.out.println();
-
-
-        //INICIO DA AULA 02/09
-
-        hana = new Aluno();
-        System.out.printf("nome:%s\n", hana.nome); // acessar o valor do atributo
-        System.out.printf("matricula: %s\n", hana.matricula);
-        System.out.printf("data nascimento: %s \n\n", hana.dataNascimento);
-
-        
-        //GARBAGE COLECTOR -  estou instanciando aluno tads com a instancia de hana, nesse caso a instancia antiga é apagado
-        alunoTads = hana;
-
-        System.out.println(hana);
-        System.out.println(alunoTads);
+//        //Nova declaração de objeto
+//        Aluno alunoTads; // criei novo objeto
+//
+//        alunoTads = hana; // MEGA IMPORTANTE - estou atribuindo a instancia do objeto hana ao novo objeto alunoTads. - O mesmo espaço alocado de memoria para hara sera o referenciado ao alunoTads
+//        alunoTads.nome = "Hana yasmim B de Medeiros";
+//        System.out.println(hana.nome);
+//        System.out.println(alunoTads.nome);
+//
+//        System.out.println();
+//
+//        System.out.println(hana);
+//        System.out.println(alunoTads);
+//
+//        System.out.println();
+//
+//
+//        //INICIO DA AULA 02/09
+//
+//        hana = new Aluno();
+//        System.out.printf("nome:%s\n", hana.nome); // acessar o valor do atributo
+//        System.out.printf("matricula: %s\n", hana.matricula);
+//        System.out.printf("data nascimento: %s \n\n", hana.dataNascimento);
+//
+//
+//        //GARBAGE COLECTOR -  estou instanciando aluno tads com a instancia de hana, nesse caso a instancia antiga é apagado
+//        alunoTads = hana;
+//
+//        System.out.println(hana);
+//        System.out.println(alunoTads);
 
 
         //2 PARTE DA AULA
@@ -59,11 +59,20 @@ public class SalaDeAula {
         hana.curso = gastronomia;
         gastronomia.nome = "Bacharelado em Gastronomia";
         hana.nome = "Hana Yasmim B. de Medeiros";
-        ifam.nome = "Ifam";
+        hana.curso.instituicao = ifam;
+        hana.curso.instituicao.setNome("Intituto federal do amazonas");
+//      hana.curso.instituicao.nome = "Intituto federal do amazonas";
+
+        System.out.printf("%s\n", hana.curso.nome);
+        System.out.printf("%s", hana.curso.instituicao.nome);
 
 
 
-        System.out.printf("\n %s faz %s no %s", hana.nome, hana.curso.nome, hana.curso.instituicao.nome);
+
+
+//        System.out.printf("\n faz  no %s", hana.curso.instituicao.nome);
+
+//        System.out.printf("\n %s faz %s no %s", hana.nome, hana.curso.nome, hana.curso.instituicao.nome);
 
 
 

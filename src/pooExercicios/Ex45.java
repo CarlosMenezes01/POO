@@ -28,12 +28,12 @@ public class Ex45 {
 
         }
 
-//        if (){
-//
-//
-//
-//        }
+        if(((arrayValores[0]+arrayValores[1]) > arrayValores[2]) && ((arrayValores[0]+arrayValores[2]) > arrayValores[1]) && ((arrayValores[1]+arrayValores[2]) > arrayValores[0])){
+            System.out.println("é um triaguilo");
 
+        } else {
+            System.out.println(" não é um triaguilo");
+        }
 
 
 
